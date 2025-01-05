@@ -264,7 +264,7 @@ function viewForescastWeather(legibleDate,weatherIcon,temp,windSpeed,humidity) {
 function currentAndForecastWeatherAPI(lat, lon) {
 
   // Required - Your unique API key
-  let AUTH = 'appid=22c3eb9ede3421b2f412a925f97e46ae';
+  let AUTH = 'appid=ee01022b28b51cecd03f67a0c8c01992';
 
   // Required -  	Latitude, decimal (-90; 90), Longitude, decimal (-180; 180)
   let geoLocation = 'lat=' + lat + '&' + 'lon=' + lon;
@@ -375,7 +375,7 @@ function currentAndForecastWeatherAPI(lat, lon) {
 function cityGeocodingAPI(cityGeo) {
 
   // Required - Your unique API key
-  let AUTH = 'appid=22c3eb9ede3421b2f412a925f97e46ae';
+  let AUTH = 'appid=ee01022b28b51cecd03f67a0c8c01992';
 
   // optional parameters: Number of the locations in the API response
   let limit = 'limit=1';
